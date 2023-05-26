@@ -1,25 +1,28 @@
 body{
     font-family: 'Century Gothic', 'Segoe UI', Tahoma, Geneva;
-}
-
-li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 8px 16px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 nav{
     text-align: center;
     position: fixed;
     top:0;
+    height: 8%;
     width: 100%;
     z-index: 2;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: white
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 16px;
+    padding-top: 20px;
 }
 a{
-    color: #ff5800;
+    color: #000000;
     text-decoration: none;
 }
-
 a:hover{
     background-color:lightsteelblue    
 }
@@ -29,64 +32,80 @@ margin: 0;
 padding: 0;
 }
 
-.container{
-max-width: 840px;
-margin-left: auto;
-margin-right: auto;
-}
-
-#hello{
-    height: 480px;
-    background-color: deepskyblue;
-}
-
-.banner{
-overflow: hidden;
-height: 100%;
-position: relative;
-}
-
-small{
-    position: absolute;
-    left: 16px;
-    bottom: 16px;
-    color: ghostwhite;
-    z-index: 2;
-}
-
-h1{
-    color: white;
-    background-color: black;
-    opacity: 70%;
-    padding: 16px 32px;
-    display: inline-block;
-    position: absolute;
-    bottom: 60px;
-}
+.home{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #050A52;
+  }
+  .home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home .text-two{
+    color: #FF8311;
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+  }
+  .home .text-three{
+    font-size: 40px;
+    margin: 5px 0;
+    color: #ffffff;
+  }
+  .home .text-four{
+    font-size: 23px;
+    margin: 5px 0;
+    color: #f8f8f8;
+    max-width: 40%;
+  }
 
 h2{
     text-align: center;
 }
-
-article{
-width: 33.33%;
-padding: 16px;
-display: table-cell;
+h1{
+    text-align: center;
+    font-size: 40px;
 }
 
+article{
+width: 30%;
+display: table-cell;
+text-align: center;
+background-color: #7A2147;
+color: white;
+}
+
+
 .identitas{
-    color: tomato;
+    color: rgb(255, 255, 255);
     font-size: 18px;
 }
 
-#course{
-padding-top: 40px;
-padding-bottom: 40px;
+#profile{
+
 }
 
-#about{
-padding-top: 40px;
-padding-bottom: 40px;
+#education{
+
+}
+
+#identity{
+  background-color: #050A52;
+}
+
+#project{
+margin-top: 60px;
+background-color: #7A2147;
+;
+}
+
+#isiproject{
+background-color: white;
 }
 
 #contact{
@@ -94,13 +113,5 @@ padding-top: 40px;
 padding-bottom: 40px;
 }
 
-footer{
-    background-color: royalblue;
-    height: 120px;
-    color: azure;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    text-align: center;
-}
 
 
