@@ -17,6 +17,7 @@ ul{
   margin: 0;
   padding: 0;
   font-size: 30px;
+  font-family: 'Comic Sans Ms', 'Poppins', 'Montserrat', 'Josefin Sans', 'Century Gothic';
 }
 
 li{
@@ -34,7 +35,7 @@ a{
 }
 
 a:hover{
-  background-color:lightsteelblue    
+  background-color:rgb(0, 64, 149)    
 }
 
 .sec1{
@@ -60,7 +61,7 @@ padding-bottom: 265px;
   padding-left: 133px;
 }
 .home-text h1{
-  font-family: 'Dearest', 'Century Gothic';
+  font-family: 'Dearest', 'Josefin Sans', 'Tw Cen MT';
   font-size: 90px;
   margin: 0;
   padding-top: 14px;
@@ -75,7 +76,7 @@ padding-bottom: 265px;
 }
 
 .home-text h3{
-  font-family: 'Gill Sans MT';
+  font-family:'Truelove', 'Gill Sans MT', 'Tw Cen MT';
   font-size: 30px;
   margin-top: 0;
   width: 600px;
@@ -92,6 +93,7 @@ font-weight: bolder;
 font-size: 25px;
 transition: 0.3s ease-in-out;
 cursor: pointer;
+font-family: 'Poppins', 'Montserrat', 'Lucida Sans' ;
 }
 
 .sec2{
@@ -101,18 +103,15 @@ cursor: pointer;
 
 .profile-head{
 background-color: white;  
+font-family: 'Dearest', 'Josefin Sans', 'Tw Cen MT';
+padding-top: 36px;
+padding-bottom: 36px;
 }
 
 .profile-head h1{
 margin: 0;
 text-align: center;
 font-size: 100px;
-}
-
-.profile-head h2{
-margin: 0;
-text-align: center;
-font-size: 40px;
 }
 
 .profile-image{
@@ -133,15 +132,28 @@ height: 419px;
 padding-left: 43px;
 padding-right: 43px;
 text-align: center;
-padding-top: 194px;
+padding-top: 179px;
+padding-bottom: 179px;
 }
 
 .profile-contenttop h2{
   margin: 0;
+  font-family: 'Montserrat', 'Poppins', 'Lucida Sans';
+}
+
+.profile-contenttop h3{
+  font-family:'Truelove', 'Gill Sans MT', 'Tw Cen MT';
+  font-size: 25px;
 }
 
 .profile-contentbot h2{
   margin: 0;
+  font-family: 'Montserrat', 'Poppins', 'Lucida Sans';
+}
+
+.profile-contentbot h3{
+  font-family: 'Montserrat', 'Poppins', 'Truelove';
+  font-size: 32px;
 }
 
 .profile-contentbot{
@@ -149,7 +161,7 @@ padding-top: 194px;
   height: 419px;
   padding-left: 114px;
   padding-right: 43px;
-  text-align: center;
+  text-align: left;
   padding-top: 194px;
   }
 .profile-contenttop .profile-text{
@@ -161,8 +173,16 @@ padding-top: 194px;
 .profile-contentbot h3{
  padding-top: 75px;
  font-size: 32px;
+ margin-bottom: 50px;
 }
 
+.prof-soc a{
+padding-right: 30px;
+}
+
+a:hover{
+  background-color: #A0C1B8;
+}
 .sec3{
   height: 1024px;
   background-color: #F4E8C1;
@@ -175,6 +195,7 @@ padding-top: 194px;
   padding-bottom: 0;
   padding-top: 40px;
   font-size: 70px;
+  font-family: 'Dearest', 'Josefin Sans', 'Tw Cen MT';
   text-align-last: center;
   background-color: white;
 }
@@ -189,6 +210,7 @@ margin: 0;
 margin-left: 74px;
 padding-top: 85px;
 font-size: 40px;
+font-family:'Truelove', 'Gill Sans MT', 'Tw Cen MT';
 }
 
 .education-text p{
@@ -204,12 +226,16 @@ font-size: 40px;
   text-align: center;
 }
 
-.project-head h1{
-font-size: 90px;
+.project-head{
 background-color: white;
 height: 146px;
+}
+
+.project-head h1{
+font-size: 90px;
+font-family: 'Dearest', 'Josefin Sans', 'Tw Cen MT';
 margin: 0;
-padding-top: 20px;
+padding-top: 28px;
 }
 
 .project-content{
@@ -220,23 +246,25 @@ padding-top: 20px;
 }
 .project-content .project{
   height: 80px;
-  margin-top: 143px;
+  margin-top: 147px;
   margin-bottom: 0;
-
 }
 
 .project{
   font-size: 70px;
+  font-family: 'Dearest','Century Gothic';
 }
 .projectdetails{
   font-size: 30px;
+  font-family: 'Century Gothic', 'Dearest';
   margin-top: 0;
+  margin-bottom: 0;
   width: 250px;
   height: 40px;
   padding-top: 24px;
-  padding-bottom: 142px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-bottom: 147px;
+  padding-left: 10px;
+  padding-right: 10px;
  }
 
 .sec5{
@@ -267,11 +295,18 @@ text-align: center;
 .project1-text h1{
   margin-bottom: 0;
   font-size: 60px;
+  font-family: 'Coda', 'Montserrat', 'Maiandra GD';
 }
 
 .project1-text h2{
   margin-top: 0;
   font-size: 40px;
+  font-family: 'Montserrat', 'Poppins', 'Lucida Sans';
+}
+
+.project1-text p{
+  font-size: 35px;
+  font-family:  'Truelove', 'Coda' , 'Montserrat', 'Tw Cen MT', 'Gill Sans MT';
 }
 
 .project1-img{
@@ -309,16 +344,20 @@ text-align: center;
     margin-bottom: 0;
     margin-top: 14px;
     font-size: 60px;
+    font-family: 'Coda', 'Montserrat', 'Maiandra GD';
   }
   
   .project2-text h2{
     margin-top: 0;
     margin-bottom: 24px;
     font-size: 40px;
+    font-family: 'Montserrat', 'Poppins', 'Lucida Sans';
   }
 
   .project2-text p{
     margin:0;
+    font-size: 35px;
+    font-family:  'Truelove', 'Coda' , 'Montserrat', 'Tw Cen MT', 'Gill Sans MT';
   }
   
   .project2-img{
@@ -357,16 +396,20 @@ text-align: center;
     margin-bottom: 0;
     margin-top: 25px;
     font-size: 60px;
+    font-family: 'Coda', 'Montserrat', 'Maiandra GD';
   }
   
   .project3-text h2{
     margin-top: 0;
     margin-bottom: 25px;
     font-size: 40px;
+    font-family: 'Montserrat', 'Poppins', 'Lucida Sans';
   }
 
   .project3-text p{
     margin:0;
+    font-size: 35px;
+    font-family:  'Truelove', 'Coda' , 'Montserrat', 'Tw Cen MT', 'Gill Sans MT';
   }
   
   .project3-img{
@@ -405,16 +448,20 @@ text-align: center;
     margin-bottom: 0;
     margin-top: 48px;
     font-size: 60px;
+    font-family: 'Coda', 'Montserrat', 'Maiandra GD';
   }
   
   .project4-text h2{
     margin-top: 0;
     margin-bottom: 24px;
     font-size: 40px;
+    font-family: 'Montserrat', 'Poppins', 'Lucida Sans';
   }
 
   .project4-text p{
     margin:0;
+    font-size: 35px;
+    font-family:  'Truelove', 'Coda' , 'Montserrat', 'Tw Cen MT', 'Gill Sans MT';
   }
   
   .project4-img{
@@ -433,6 +480,7 @@ text-align: center;
   margin-top: 0;
   padding-top: 40px;
   font-size: 70px;
+  font-family: 'Dearest', 'Josefin Sans', 'Tw Cen MT';
 }
 
 form{
@@ -449,9 +497,16 @@ height: 35px;
 border-radius: 10px;
 margin-bottom: 54px;
 padding-left: 10px;
-margin-left: 40px;
+margin-left: 35px;
 padding-right: 10px;
 }
+
+.form .label{
+font-size: 26px;
+font-family:'Poppins', 'Montserrat','Century Gothic';
+}
+
+
 .email #email{
   width: 468px;
   height: 35px;
@@ -459,7 +514,7 @@ padding-right: 10px;
   margin-bottom: 54px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-left: 47px;
+  margin-left: 45px;
 }
 .location #location{
   width: 468px;
@@ -468,11 +523,11 @@ padding-right: 10px;
   margin-bottom: 54px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-left: 20px;
+  margin-left: 0px;
 }
   
 .message #message{
-  width: 580px;
+  width: 600px;
   height: 300px;
   border-radius: 10px;
   padding-left: 10px;
@@ -488,18 +543,27 @@ border-radius: 10px;
 margin-top: 36px;
 transition: 0.3s ease-in-out;
 cursor: pointer;
+font-size: 25px;
+font-family: 'Poppins', 'Montserrat', 'Century Gothic';
 }
 
-.message .messagelabel{
-  margin-right: 515px;
+.message .label{
+  margin-right: 490px;
 }
 
-footer{
+.sec10{
   height: 100px;
-  list-style-type: none;
-  display: inline-block;
-  padding-right: 90px;
-  padding-top: 18px;
-  width: 155px;
-  height: 30px;
+}
+
+.social{
+  margin-right: 410px;
+  margin-left: 410px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social a:hover{
+  background-color: white;
 }
