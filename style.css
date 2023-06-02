@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-family: 'Century Gothic', 'Segoe UI', Tahoma, Geneva;
   width: 100%;
@@ -32,10 +35,6 @@ li{
 a{
   color: #000000;
   text-decoration: none;
-}
-
-a:hover{
-  background-color:rgb(0, 64, 149)    
 }
 
 .sec1{
@@ -96,6 +95,10 @@ cursor: pointer;
 font-family: 'Poppins', 'Montserrat', 'Lucida Sans' ;
 }
 
+.contact-button:hover{
+  background-color:rgb(129, 178, 241)    
+}
+
 .sec2{
   height: 1024px;
   background-color: #A0C1B8;
@@ -143,7 +146,7 @@ padding-bottom: 179px;
 
 .profile-contenttop h3{
   font-family:'Truelove', 'Gill Sans MT', 'Tw Cen MT';
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .profile-contentbot h2{
@@ -160,7 +163,6 @@ padding-bottom: 179px;
   width: 467px;
   height: 419px;
   padding-left: 114px;
-  padding-right: 43px;
   text-align: left;
   padding-top: 194px;
   }
@@ -177,7 +179,7 @@ padding-bottom: 179px;
 }
 
 .prof-soc a{
-padding-right: 30px;
+padding-right: 20px;
 }
 
 a:hover{
@@ -202,7 +204,7 @@ a:hover{
 
 .education-content{
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 .education-text{
@@ -305,7 +307,7 @@ text-align: center;
 }
 
 .project1-text p{
-  font-size: 35px;
+  font-size: 30px;
   font-family:  'Truelove', 'Coda' , 'Montserrat', 'Tw Cen MT', 'Gill Sans MT';
 }
 
@@ -356,7 +358,7 @@ text-align: center;
 
   .project2-text p{
     margin:0;
-    font-size: 35px;
+    font-size: 30px;
     font-family:  'Truelove', 'Coda' , 'Montserrat', 'Tw Cen MT', 'Gill Sans MT';
   }
   
@@ -408,7 +410,7 @@ text-align: center;
 
   .project3-text p{
     margin:0;
-    font-size: 35px;
+    font-size: 30px;
     font-family:  'Truelove', 'Coda' , 'Montserrat', 'Tw Cen MT', 'Gill Sans MT';
   }
   
@@ -460,7 +462,7 @@ text-align: center;
 
   .project4-text p{
     margin:0;
-    font-size: 35px;
+    font-size: 30px;
     font-family:  'Truelove', 'Coda' , 'Montserrat', 'Tw Cen MT', 'Gill Sans MT';
   }
   
@@ -564,6 +566,11 @@ font-family: 'Poppins', 'Montserrat', 'Century Gothic';
   justify-content: space-between;
 }
 
+.submitbutton:hover{
+    background-color:rgb(129, 178, 241)    
+}
+
 .social a:hover{
   background-color: white;
 }
+
